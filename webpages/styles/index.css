@@ -1,0 +1,45 @@
+body {
+    max-width: 90rem;
+    padding: 2rem; 
+    margin: auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+.cards {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: .25rem;
+}
+
+@media (min-width: 1400px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+.card {
+    width: 100%;
+	height: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul>li {
+    padding: 5px;
+    display: inline-block;
+}
+
+ul>li>a {
+    display: block;
+    background-color: powderblue;
+    border-radius: 10px;
+    width: 15em;
+    line-height: 4em;
+    text-decoration: none;
+    text-align: center;
+    color: midnightblue;
+}
+
