@@ -10,7 +10,7 @@ TESTER = document.getElementById('tester');
 */  
 
 function getCSVMoHFW() {
-    Plotly.d3.csv("Datasets/Covid19_MoHFW.csv",
+    Plotly.d3.csv("Datasets/Filtered_Covid19_MoHFW.csv",
         function(data){ processMoHFWData(data) } 
     );
 };
@@ -185,7 +185,7 @@ function makeChartMoHFW(states){
 /***************************************************************************/
 /***************************************************************************/
 function getCSVOurWorldInData() {
-    Plotly.d3.csv("Datasets/Covid19_OWiD.csv",  //"https://covid.ourworldindata.org/data/owid-covid-data.csv",
+    Plotly.d3.csv("Datasets/Filtered_Covid19_OWiD.csv",  //"https://covid.ourworldindata.org/data/owid-covid-data.csv",
         function(data) { processOWiDData(data) }
     );
 };

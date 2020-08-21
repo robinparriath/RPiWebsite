@@ -1,4 +1,6 @@
 webpages/CoronaVirusWW.html
 webpages/CoronaVirusIndia.html
-Datasets/Covid19_MoHFW.csv
+Datasets/Final_Covid19_MoHFW.csv
 Datasets/Covid19_OWiD.csv
+Datasets/Filtered_Covid19_MoHFW.csv
+Datasets/Filtered_Covid19_OWiD.csv
